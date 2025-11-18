@@ -113,35 +113,51 @@
   - Handle errors and set job status to 'failed' with error messages
   - _Requirements: 1.3, 5.2, 5.4, 5.5, 7.1, 7.2, 7.3_
 
-- [ ] 5.1 Write property test for upload completion creates job
+- [x] 5.1 Write property test for upload completion creates job
+
+
   - **Property 2: Upload completion creates job**
   - **Validates: Requirements 1.3**
 
-- [ ] 5.2 Write property test for progress monotonicity
+- [x] 5.2 Write property test for progress monotonicity
+
+
   - **Property 9: Progress monotonicity**
   - **Validates: Requirements 5.2**
 
-- [ ] 5.3 Write property test for failed jobs have error messages
+- [x] 5.3 Write property test for failed jobs have error messages
+
+
   - **Property 10: Failed jobs have error messages**
   - **Validates: Requirements 5.4**
 
-- [ ] 5.4 Write property test for job cancellation
+- [x] 5.4 Write property test for job cancellation
+
+
   - **Property 11: Job cancellation**
   - **Validates: Requirements 5.5**
 
-- [ ] 5.5 Write property test for concurrent job independence
+- [x] 5.5 Write property test for concurrent job independence
+
+
   - **Property 15: Concurrent job independence**
   - **Validates: Requirements 7.1**
 
-- [ ] 5.6 Write property test for non-blocking uploads
+- [x] 5.6 Write property test for non-blocking uploads
+
+
   - **Property 16: Non-blocking uploads**
   - **Validates: Requirements 7.2**
 
-- [ ] 5.7 Write property test for FIFO job processing
+- [x] 5.7 Write property test for FIFO job processing
+
+
   - **Property 17: FIFO job processing**
   - **Validates: Requirements 7.3**
 
-- [ ] 5.8 Write unit tests for ConversionService
+- [x] 5.8 Write unit tests for ConversionService
+
+
   - Test job creation and queueing
   - Test job status transitions
   - Test job cancellation at different stages
