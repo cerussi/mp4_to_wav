@@ -14,14 +14,20 @@
   - Configure Jest for testing
   - _Requirements: All_
 
-- [-] 2. Implement core data models and types
+- [x] 2. Implement core data models and types
+
+
 
   - Create TypeScript interfaces for ConversionJob, AudioMetadata, VideoMetadata
   - Create TypeScript interfaces for API request/response types
   - Create JobStatus type and error response types
   - _Requirements: 1.1, 1.3, 3.1, 5.2, 5.4_
 
-- [ ] 3. Implement FFmpegWrapper service
+- [x] 3. Implement FFmpegWrapper service
+
+
+
+
   - Create FFmpegWrapper class with fluent-ffmpeg integration
   - Implement getVideoMetadata() method to extract video information
   - Implement validateVideoFile() method to check if file has valid video streams
@@ -30,15 +36,21 @@
   - Use PCM codec for WAV output
   - _Requirements: 3.1, 3.2, 6.1_
 
-- [ ] 3.1 Write property test for audio parameters preservation
+- [x] 3.1 Write property test for audio parameters preservation
+
+
   - **Property 4: Audio parameters preservation**
   - **Validates: Requirements 3.1**
 
-- [ ] 3.2 Write property test for PCM encoding
+- [x] 3.2 Write property test for PCM encoding
+
+
   - **Property 5: PCM encoding**
   - **Validates: Requirements 3.2**
 
-- [ ] 3.3 Write unit tests for FFmpegWrapper
+- [x] 3.3 Write unit tests for FFmpegWrapper
+
+
   - Test metadata extraction with sample video files (MP4, AVI, MOV, MKV, WebM)
   - Test validation with video without audio stream (edge case)
   - Test validation with corrupted file (edge case)
