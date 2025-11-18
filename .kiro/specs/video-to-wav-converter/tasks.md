@@ -14,7 +14,8 @@
   - Configure Jest for testing
   - _Requirements: All_
 
-- [ ] 2. Implement core data models and types
+- [-] 2. Implement core data models and types
+
   - Create TypeScript interfaces for ConversionJob, AudioMetadata, VideoMetadata
   - Create TypeScript interfaces for API request/response types
   - Create JobStatus type and error response types
