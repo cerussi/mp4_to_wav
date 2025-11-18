@@ -28,6 +28,7 @@
 
 
 
+
   - Create FFmpegWrapper class with fluent-ffmpeg integration
   - Implement getVideoMetadata() method to extract video information
   - Implement validateVideoFile() method to check if file has valid video streams
@@ -58,7 +59,10 @@
   - Test bit depth preservation (16-bit, 24-bit examples)
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.5, 3.3, 3.4, 3.5, 3.6, 6.2, 6.3_
 
-- [ ] 4. Implement FileManager service
+- [-] 4. Implement FileManager service
+
+
+
   - Create FileManager class for file operations
   - Implement saveUploadedFile() to store uploaded videos with unique job directories
   - Implement getOutputPath() to generate output WAV file paths
