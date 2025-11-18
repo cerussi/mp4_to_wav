@@ -59,7 +59,9 @@
   - Test bit depth preservation (16-bit, 24-bit examples)
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.5, 3.3, 3.4, 3.5, 3.6, 6.2, 6.3_
 
-- [-] 4. Implement FileManager service
+- [x] 4. Implement FileManager service
+
+
 
 
 
@@ -71,26 +73,36 @@
   - Implement cleanupOldFiles() to remove files older than retention time
   - _Requirements: 7.5, 8.2, 8.3, 8.4_
 
-- [-] 4.1 Write property test for temporary file cleanup
+- [x] 4.1 Write property test for temporary file cleanup
+
 
   - **Property 18: Temporary file cleanup**
   - **Validates: Requirements 7.5**
 
-- [ ] 4.2 Write property test for post-download cleanup
+- [x] 4.2 Write property test for post-download cleanup
+
+
   - **Property 19: Post-download cleanup**
   - **Validates: Requirements 8.3**
 
-- [ ] 4.3 Write property test for automatic old file cleanup
+- [x] 4.3 Write property test for automatic old file cleanup
+
+
   - **Property 20: Automatic old file cleanup**
   - **Validates: Requirements 8.4**
 
-- [ ] 4.4 Write unit tests for FileManager
+- [x] 4.4 Write unit tests for FileManager
+
+
   - Test file saving and path generation
   - Test cleanup after successful conversion
   - Test cleanup after failed conversion
   - _Requirements: 7.5, 8.3_
 
-- [ ] 5. Implement ConversionService with job queue
+- [-] 5. Implement ConversionService with job queue
+
+
+
   - Create ConversionService class with in-memory job storage
   - Implement queueJob() to add jobs to processing queue
   - Implement processJob() to handle conversion with FFmpegWrapper
