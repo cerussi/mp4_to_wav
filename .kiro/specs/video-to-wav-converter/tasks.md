@@ -71,7 +71,8 @@
   - Implement cleanupOldFiles() to remove files older than retention time
   - _Requirements: 7.5, 8.2, 8.3, 8.4_
 
-- [ ] 4.1 Write property test for temporary file cleanup
+- [-] 4.1 Write property test for temporary file cleanup
+
   - **Property 18: Temporary file cleanup**
   - **Validates: Requirements 7.5**
 
