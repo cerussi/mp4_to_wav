@@ -99,7 +99,9 @@
   - Test cleanup after failed conversion
   - _Requirements: 7.5, 8.3_
 
-- [-] 5. Implement ConversionService with job queue
+- [x] 5. Implement ConversionService with job queue
+
+
 
 
 
