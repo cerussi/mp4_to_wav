@@ -23,7 +23,8 @@
   - Create JobStatus type and error response types
   - _Requirements: 1.1, 1.3, 3.1, 5.2, 5.4_
 
-- [-] 3. Implement FFmpegWrapper service
+- [x] 3. Implement FFmpegWrapper service
+
 
 
 
@@ -47,7 +48,8 @@
   - **Property 5: PCM encoding**
   - **Validates: Requirements 3.2**
 
-- [-] 3.3 Write unit tests for FFmpegWrapper
+- [x] 3.3 Write unit tests for FFmpegWrapper
+
 
   - Test metadata extraction with sample video files (MP4, AVI, MOV, MKV, WebM)
   - Test validation with video without audio stream (edge case)
