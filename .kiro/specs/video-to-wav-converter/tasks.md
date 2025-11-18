@@ -35,15 +35,20 @@
   - Use PCM codec for WAV output
   - _Requirements: 3.1, 3.2, 6.1_
 
-- [ ] 3.1 Write property test for audio parameters preservation
+- [x] 3.1 Write property test for audio parameters preservation
+
+
   - **Property 4: Audio parameters preservation**
   - **Validates: Requirements 3.1**
 
-- [ ] 3.2 Write property test for PCM encoding
+- [x] 3.2 Write property test for PCM encoding
+
+
   - **Property 5: PCM encoding**
   - **Validates: Requirements 3.2**
 
-- [ ] 3.3 Write unit tests for FFmpegWrapper
+- [-] 3.3 Write unit tests for FFmpegWrapper
+
   - Test metadata extraction with sample video files (MP4, AVI, MOV, MKV, WebM)
   - Test validation with video without audio stream (edge case)
   - Test validation with corrupted file (edge case)
