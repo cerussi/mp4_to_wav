@@ -14,14 +14,19 @@
   - Configure Jest for testing
   - _Requirements: All_
 
-- [-] 2. Implement core data models and types
+- [x] 2. Implement core data models and types
+
+
 
   - Create TypeScript interfaces for ConversionJob, AudioMetadata, VideoMetadata
   - Create TypeScript interfaces for API request/response types
   - Create JobStatus type and error response types
   - _Requirements: 1.1, 1.3, 3.1, 5.2, 5.4_
 
-- [ ] 3. Implement FFmpegWrapper service
+- [-] 3. Implement FFmpegWrapper service
+
+
+
   - Create FFmpegWrapper class with fluent-ffmpeg integration
   - Implement getVideoMetadata() method to extract video information
   - Implement validateVideoFile() method to check if file has valid video streams
